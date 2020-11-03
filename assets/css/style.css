@@ -75,7 +75,7 @@ section p {
 }
 
 .has-bg-img {
-  background: url('https://cdn.shopify.com/s/files/1/0401/7091/3837/collections/PORTADA_CARTERAS_-_copia_1200x1200.jpg?v=1592457904')center center;
+  background: url('https://cdn.shopify.com/s/files/1/0401/7091/3837/collections/PORTADA_CARTERAS_-_copia_1200x1200.jpg?v=1592457904')center center; 
   /* background-size: cover */;
-  
+
 }
