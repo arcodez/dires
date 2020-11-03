@@ -8,12 +8,16 @@
   <!--     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
  -->
   <link rel="stylesheet" href="https://arcodez.github.io/web-components/css/dire.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bulma.min.css">
   <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1320/PNG/128/-shirt_86800.png" type="image/x-icon">
+  <script src="assets/js/include.js"></script>
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
 </head>
 
 <body>
+
+  <div w3-include-html="include/cabeza.html"></div>
 
   <!-- Primera Etapa -->
   <section class="hero is-medium is-bold is-warning">
@@ -118,20 +122,16 @@
       <a class="grid-gallery__item" href="#">
         <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?woman">
       </a>
-      <a class="grid-gallery__item" href="#">
-        <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?woman">
-      </a>
-      <a class="grid-gallery__item" href="#">
-        <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?woman">
-      </a>
-      <a class="grid-gallery__item" href="#">
-        <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?dog">
-      </a>
-      <a class="grid-gallery__item" href="#">
-        <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?dog">
-      </a>
     </div>
   </div>
+
+  <br>
+  <div w3-include-html="include/pie.html"></div>
+
+  <script>
+    w3IncludeHTML();
+  </script>
+
 </body>
 
 </html>
