@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Vue</title>
+</head>
+
+<body>
+    <div id="prueba">
+        <h1>{{ message }}</h1>
+    </div>
+
+    <script>
+        new Vue({
+            el:'#prueba',
+            data: {
+                message: 'Hola Mundo'
+            }
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <!-- Script de Vue -->
+</body>
+
+</html>
