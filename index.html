@@ -7,7 +7,8 @@
   <title>Ropa Dire´s</title>
   <!--     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
  -->
-  <link rel="stylesheet" href="https://arcodez.github.io/web-components/css/dire.css">
+  <!--   <link rel="stylesheet" href="https://arcodez.github.io/web-components/css/dire.css">
+ -->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/bulma.min.css">
   <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1320/PNG/128/-shirt_86800.png" type="image/x-icon">
@@ -20,25 +21,26 @@
   <div w3-include-html="include/cabeza.html"></div>
 
   <!-- Primera Etapa -->
-  <section class="hero is-medium is-bold is-warning">
+  <section class="hero is-medium has-bg-img">
+    <div class="hero-body">
     <div class="container">
-      <div class="hero-body">
-        <div class="column">
-          <h2 class="title is-2">La Mejor Marca de Ropa | Prendas Hecha a Mano</h2>
-          <p class="subtitle is-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime
+      <div class="column">
+          <h2 class="title is-2"></h2>
+          <p class="subtitle is-3 has-text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime
             quidem? Consectetur
             perspiciatis quisquam est itaque dignissimos, voluptatibus tempore! Consectetur fugiat
             corrupti
             ducimus nisi velit accusamus quis illum praesentium amet.</p>
         </div>
-        <figure class="image">
-          <img width="500" src="https://www.ambientum.com/wp-content/uploads/2019/02/ropa.jpg" alt="">
+        <figure class="image ">
+          <img width="500" class="is-rounded" src=""
+            alt="">
         </figure>
       </div>
     </div>
   </section>
 
-  <br>
+
 
   <!-- Colums Productos parte 2 -->
   <section class="hero is-bold is-dark is-medium">
@@ -113,8 +115,30 @@
     </div>
   </section>
 
+
+  <!-- Elegir modelo de cartera -->
+  <section>
+    <div class="container is-success">
+
+      <h2 class="title is-2 has-text-centered">Cartera para mujer: ¿qué modelo elegir?</h2>
+      <p>Un complemento que no puede faltar en ningún bolso de mujer es una cartera o monedero para guardar tu dinero e
+        identificaciones. Pero no puede ser cualquiera.</p>
+      <p>Debe ser uno lo suficientemente bonito, cómodo y espacioso para que quepan todas las cosas importantes como el
+        dinero, las tarjetas y la documentación. Si estás pensando en comprar una, aquí encontrarás todo lo que
+        necesitas para elegir la mejor.</p>
+      <br>
+      <h2 class="title is-2 has-text-centered"> La cartera para mujer </h2>
+      <p>Una cartera de mujer, también llamado monedero o billetera, es un artículo de pequeñas dimensiones que las
+        mujeres suelen llevar en sus bolsos y en donde guardan dinero, tarjetas y documentos.</p>
+
+      <p>Suelen ser de forma rectangular o cuadrada y pueden tener diferentes tamaños y diseños variados. Se fabrican
+        con materiales muy distintos, como el cuero o materiales sintéticos.</p>
+    </div>
+  </section>
+
+
   <!-- Galeria Mosaico -->
-  <div class="container">
+  <!--   <div class="container">
     <div class="grid-gallery">
       <a class="grid-gallery__item" href="#">
         <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?dog">
@@ -123,11 +147,11 @@
         <img class="grid-gallery__image" src="https://source.unsplash.com/featured/500x400/?woman">
       </a>
     </div>
-  </div>
+  </div> -->
 
   <br>
   <div w3-include-html="include/pie.html"></div>
-
+  <script src="assets/js/navbar.js"></script>
   <script>
     w3IncludeHTML();
   </script>

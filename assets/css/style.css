@@ -1,9 +1,9 @@
 .card-image figure img {
-    display: block;
-    margin: auto;
-    max-width: 400px;
-    object-fit: contain;
-    max-min
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  object-fit: contain;
+  max-min
 }
 
 .grid-gallery {
@@ -65,6 +65,17 @@
   object-fit: cover;
 }
 
-body {
-    background-image: url('https://img.freepik.com/vector-gratis/elegante-fondo-verde-poligono-geometrico_1035-13146.jpg?size=338&ext=jpg');
+section {
+  padding-top: 2em;
+}
+
+section p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.has-bg-img {
+  background: url('https://cdn.shopify.com/s/files/1/0401/7091/3837/collections/PORTADA_CARTERAS_-_copia_1200x1200.jpg?v=1592457904')center center;
+  /* background-size: cover */;
+  
 }
